@@ -58,4 +58,5 @@ def update_plot(a1, a2, a3):
     return fig, csv_href, html_href, stats
 
 if __name__ == '__main__':
-    app.run_server(debug=False, host="0.0.0.0", port=8080)
+    app.run(debug=False, host="0.0.0.0", port=8080)
+    
